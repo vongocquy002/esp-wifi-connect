@@ -1873,9 +1873,9 @@
                     CẤU HÌNH BUS THẺ NHỚ
                     - Cho phép chọn SDMMC 1-bit / SDMMC 4-bit / SPI.
                     - Các giá trị được lưu vào NVS (namespace "wifi") qua /advanced/submit.
-                    - Chỉ những field xuất hiện trong JSON mới bị ghi, giúp tránh ghi đè ngoài phạm vi được chọn.
+                    - Chỉ những field xuất hiện trong JSON phải được ghi, giúp tránh ghi đè ngoài phạm vi được chọn.
                 -->
-                <div class="section-group">
+                <div id="sdcard-section" class="section-group" style="display:none;">
                     <div class="section-label">THẺ NHỚ / CHẾ ĐỘ BUS</div>
                     <h3 style="margin-top: 2px;">Chọn chế độ truy cập & chân GPIO</h3>
 
@@ -1994,9 +1994,7 @@
 	
     <!-- Footer / Credit -->
 	<div class="footer">
-		Bản phát triển <span class="footer-highlight">Xiaozhi AI</span> cho ESP32-S3 —
-		tối ưu trải nghiệm nghe nhạc từ thẻ nhớ, hỗ trợ phát nhạc đa chế độ
-		và cho phép đổi chân <b>SDMMC</b> trực tiếp ngay trên trang cấu hình Wi-Fi.
+		Bản phát triển <span class="footer-highlight">Xiaozhi AI</span>  <b>SDMMC</b> ... nói chung là xiaozhi
 		<br>
 
 		<span>
